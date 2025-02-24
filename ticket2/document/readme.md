@@ -1,8 +1,8 @@
 # Java CI checks | Bugs analysis **Documentation**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9c76d1ee-46e4-4049-a01e-c3288b544bc9" alt="bugs" width="500"/>
-  ![image](https://github.com/user-attachments/assets/4a9269e7-7d8a-48b9-834a-b1e5a761bccf)
+  <img src="https://github.com/user-attachments/assets/4a9269e7-7d8a-48b9-834a-b1e5a761bccf" alt="bugs" width="500"/>
+  
 
 </p>
 

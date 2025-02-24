@@ -1,5 +1,6 @@
 # Dependency Scanning
-![depe](https://github.com/user-attachments/assets/f8de5a7d-07f5-49fa-afa8-69045a3d2edb)
+![dependency-scanning](https://github.com/user-attachments/assets/d1442792-7081-4020-ade9-7388de142035)
+
 
 | **Created**     | **Version**   | **Author** | **Comment**       | **Reviewer**      |
 |:----------------:|:-------------:|:-----------:|:------------------:|:-----------------:|

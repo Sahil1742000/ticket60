@@ -4,10 +4,7 @@
 
 | Created     |    Version   | Author | Comment | Reviewer | Date |
 |:------------------:|:-------------:|:-------------:|:-------------:|:------------------:|:--------:|
-| 24-02-2025  | V1   | Chander kant | Internal Review | Sidharth  |
-|  | V1   | Chander kant | L0 | | 
-| | V2 | Chander kant | L1  |  | 
-| | V3 |  Chander kant | L2  | |
+| 24-02-2025  | V1   | Sahil | Internal Review | Sidharth  |
 
 ---
 

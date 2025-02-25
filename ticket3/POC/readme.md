@@ -76,12 +76,16 @@ Navigate to the project root where the `pom.xml` file is located and use the fol
   ```
 
   This will display all the dependencies, their versions, and any transitive dependencies.
+![Screenshot (3)](https://github.com/user-attachments/assets/c0996808-0440-4926-9344-2c4e207ef805)
+![Screenshot (4)](https://github.com/user-attachments/assets/c5a7216d-0609-465c-b945-2ad76e70d5b5)
 
 - To check for outdated dependencies:
 
   ```bash
   mvn versions:display-dependency-updates
   ```
+![Screenshot (5)](https://github.com/user-attachments/assets/bc0133f3-a303-4eb2-ae7e-d86f162faafe)
+![Screenshot (6)](https://github.com/user-attachments/assets/453e12d2-e2a1-4278-af7c-54292da7f0eb)
 
   This will list any dependencies that have newer versions available.
 

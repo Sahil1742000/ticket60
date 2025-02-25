@@ -27,28 +27,21 @@ An **AMI** is a pre-configured virtual machine image used to launch an instance 
 - **Reliability and Consistency**: AMIs provide reproducible environments that eliminate the "works on my machine" problem, ensuring that the build and test environments remain consistent across all stages of the pipeline.
 - **Scalability**: Leveraging cloud-based environments like AWS helps scale CI pipelines without the need for managing physical infrastructure.
 
-## Different Tools for CI
+# Tools for CI with AMI
 
-There are several CI tools that facilitate the implementation of CI operations in software projects. Below are some popular ones:
+Several tools and services can help in automating CI operations involving AMIs:
 
-### 1. **Jenkins**:
-   - Open-source automation server used for building, deploying, and automating software projects.
-   - Highly extensible with a wide range of plugins.
-   - Supports integration with many version control systems, testing tools, and deployment platforms.
+| **Tool/Service**               | **Description**                                                                                              |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **AWS CodePipeline**            | AWS’s native CI/CD service that integrates with other tools like AWS CodeBuild and CodeDeploy to automate AMI creation and deployment. |
+| **Packer**                      | An open-source tool used to create identical machine images for multiple platforms from a single source configuration. |
+| **Jenkins**                     | A widely-used open-source automation server that integrates with AWS to automate CI processes, including AMI creation. |
+| **Ansible / Chef / Puppet**     | Configuration management tools that help in provisioning and managing software on EC2 instances before creating AMIs. |
+| **Terraform**                   | Infrastructure-as-Code (IaC) tool used to manage AWS resources, including creating and managing AMIs.            |
 
-### 2. **GitLab CI**:
-   - Integrated CI/CD feature of GitLab, an all-in-one DevOps platform.
-   - Provides seamless Git integration, CI pipelines, and monitoring.
-   - Native support for Docker and Kubernetes for containerized deployments.
 
-### 3. **CircleCI**:
-   - Cloud-based CI tool that automates testing and deployment pipelines.
-   - Integrated with GitHub and Bitbucket.
-   - Fast setup with pre-configured Docker containers.
+---
 
-### 4. **Travis CI**:
-   - Cloud-based CI service primarily for open-source projects.
-   - Supports GitHub integration and automates testing for different programming languages.
 
 ## Comparison of CI Tools
 
@@ -61,22 +54,32 @@ There are several CI tools that facilitate the implementation of CI operations i
 | **Customizability**    | High                | Moderate            | Moderate            | Low                 |
 | **Popular in**         | Large Enterprises   | GitLab Users        | Startups/Small Teams| Open-Source Projects|
 
-## Advantages of CI with AMI
+# Advantages of CI with AMI
 
-- **Consistency**: By using a custom AMI, developers can ensure that the entire team is working in the same environment, eliminating issues that arise due to differing environments.
-- **Scalability**: AWS allows scaling your CI infrastructure dynamically. With AMIs, you can spin up new instances quickly for parallel builds and tests.
-- **Automation**: AMIs can be integrated into the CI pipeline, where the infrastructure can be automatically created and destroyed, saving time and reducing manual intervention.
-- **Cost Efficiency**: You only pay for what you use, and unused environments can be terminated, keeping costs low.
+Using CI tools to manage AMIs offers several benefits:
 
-## Best Practices for CI Design and AMI Usage
+| **Advantage**     | **Description**                                                                                              |
+|-------------------|--------------------------------------------------------------------------------------------------------------|
+| **Consistency**   | AMIs provide a reliable and repeatable environment for all instances.                                          |
+| **Cost Efficiency** | Automating environment setup reduces costs related to manual configurations and human errors.               |
+| **Security**      | Pre-configured AMIs can ensure that all deployed instances adhere to security best practices.                 |
+| **Automation**    | Reduces manual intervention and ensures that new updates are tested and deployed seamlessly.                  |
+| **Version Control** | Each AMI can be versioned and rolled back if issues arise, ensuring high availability and minimal downtime.   |
 
-1. **Automate Everything**: Automate build, test, and deployment processes to reduce human error and speed up feedback loops.
-2. **Use Version Control**: Always use version control (e.g., Git) to track changes and maintain the history of your code.
-3. **Use Containerization**: Containerize your applications and services (e.g., using Docker) to simplify dependencies and deployment processes.
-4. **Write Comprehensive Tests**: Ensure your CI pipeline includes unit, integration, and end-to-end tests to verify the correctness of your code.
-5. **Create Custom AMIs for Environments**: Define specific AMIs for different environments (e.g., dev, staging, prod) to ensure consistency across deployments.
-6. **Monitor Pipeline Performance**: Track build times, test results, and deployment success rates to identify areas of improvement.
-7. **Use AWS EC2 Spot Instances**: If your CI workloads are intermittent, consider using AWS EC2 Spot Instances to save costs.
+---
+
+# Best Practices for CI with AMI
+
+To ensure optimal performance and security when working with AMIs in a CI pipeline, follow these best practices:
+
+| **Best Practice**             | **Description**                                                                                              |
+|-------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Use Infrastructure-as-Code (IaC)** | Leverage tools like Terraform to manage and automate the deployment of AMIs, ensuring consistency and better resource management. |
+| **Automate AMI Creation**      | Set up pipelines to automate AMI creation, ensuring updates and patches are continuously integrated into the system. |
+| **Security Focus**             | Keep AMIs secure by regularly patching them and ensuring they follow security best practices.                |
+| **Versioning**                 | Maintain versioned AMIs so that you can roll back to previous versions if necessary.                        |
+| **Test Your AMIs**             | Incorporate automated testing in your CI pipeline to ensure AMIs are configured correctly before deploying to production. |
+---
 
 ## Recommendations / Conclusion
 
@@ -86,11 +89,6 @@ In conclusion, adopting CI practices with the use of AMIs provides improved effi
 
 ## Contact Information
 
-For further assistance or inquiries, feel free to reach out:
-
-- **Email**: support@yourcompany.com
-- **Slack Channel**: #ci-help
-- **GitHub Repository**: [https://github.com/yourcompany/ci-ami](https://github.com/yourcompany/ci-ami)
 
 ## References
 

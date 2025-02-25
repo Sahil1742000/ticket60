@@ -65,7 +65,7 @@ To check if Maven is installed, run:
 mvn -v
 ```
 
-#### Step 2: Run Dependency Scanning
+#### Step 2: Run Dependency Scanning Maven dependency plugin
 
 Navigate to the project root where the `pom.xml` file is located and use the following Maven commands.
 

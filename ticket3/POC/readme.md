@@ -85,36 +85,8 @@ Navigate to the project root where the `pom.xml` file is located and use the fol
 
   This will list any dependencies that have newer versions available.
 
-### Option 2: Scan for Vulnerabilities with OWASP Dependency-Check
 
-To check for known vulnerabilities in your project's dependencies, you can use OWASP Dependency-Check.
 
-#### STEP 1. **Install Dependency-Check** (if not already installed):
-
-   On macOS/Linux (using Homebrew):
-
-   ```bash
-   brew install dependency-check
-   ```
-
-   On Ubuntu/Debian-based systems (using `apt`):
-
-   ```bash
-   sudo apt install dependency-check
-   ```
-
-#### Step 2. **Run Dependency-Check**:
-
-   To scan the project for vulnerabilities, run the following command in the root directory of the project:
-
-   ```bash
-   dependency-check --project "MyProject" --scan . --out ./dependency-check-report
-   ```
-
-   This will generate a report in the `dependency-check-report` folder.
-
----
-![Screenshot (58)](https://github.com/user-attachments/assets/e9632ddd-ca5f-4eb4-b7d1-4fe6277d54a9)
 
 ## Contact Information
 

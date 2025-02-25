@@ -1,4 +1,7 @@
 # Application CI Design | Generic CI Operation | AMI
+
+![image](https://github.com/user-attachments/assets/78bc7297-38db-4b3b-ab05-322d853b5e7f)
+
 ---
 
 | Created     |    Version   | Author | Comment | Reviewer | Date |

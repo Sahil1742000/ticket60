@@ -33,7 +33,8 @@ As the salary code is Java-based, it is designed to be compatible with Java vers
 
 ### Cloning a Java App
 
-![Screenshot from 2024-11-28 13-38-42](https://github.com/user-attachments/assets/dd16de07-7d38-4111-a62f-de89afdd4edf)
+![Screenshot (1)](https://github.com/user-attachments/assets/c5e85995-a7b2-4fbc-b04b-9db9622bed45)
+
 
 ### Add the Spotbug dependency in pom.xml file.
 To integrate SpotBugs into your Maven project via pom.xml, use this configuration to ensure the SpotBugs Maven plugin (spotbugs-maven-plugin) version 4.8.2.0 is set up along with SpotBugs 4.8.3 for static analysis and bug detection during your build process.
@@ -83,16 +84,11 @@ To integrate Find Security Bugs into SpotBugs plugin, you can configure your pom
 ```
  mvn spotbugs:check
 ```
-![Screenshot from 2024-11-28 13-41-01](https://github.com/user-attachments/assets/c9091bec-f992-49bd-8720-6c1d0382fe34)
+![Screenshot (2)](https://github.com/user-attachments/assets/006ac2e3-0b58-4f01-8b4a-0192d3668c7a)
 
 
-### Generate SpotBugs Reports: 
-This command will generate an html report. After running this command, generate various types of reports, such as HTML and XML: (target/spotbugs.html)(target/spotbugsXml.xml).
 
-```
-	mvn spotbugs:spotbugs
-```
-![Screenshot from 2024-11-28 13-44-12](https://github.com/user-attachments/assets/7005c468-7f1d-490f-a00c-7079934a9efb)
+
 
 # Conclusion
 

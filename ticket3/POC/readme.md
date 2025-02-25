@@ -103,8 +103,5 @@ Navigate to the project root where the `pom.xml` file is located and use the fol
 
 ## References
 
-1. **OWASP Dependency-Check** - [https://owasp.org/www-project-dependency-check/](https://owasp.org/www-project-dependency-check/)
-2. **Snyk** - [https://snyk.io](https://snyk.io)
-3. **Sonatype Nexus IQ** - [https://www.sonatype.com/products/nexus-iq](https://www.sonatype.com/products/nexus-iq)
-4. **Black Duck** - [https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html)
-5. **Maven Dependency Plugin** - [https://maven.apache.org/plugins/maven-dependency-plugin/](https://maven.apache.org/plugins/maven-dependency-plugin/)
+
+ **Maven Dependency Plugin** - [https://maven.apache.org/plugins/maven-dependency-plugin/](https://maven.apache.org/plugins/maven-dependency-plugin/)

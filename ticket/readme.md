@@ -1,5 +1,11 @@
 # Application CI Design | Generic CI Operation | AMI
+---
 
+| Created     |    Version   | Author | Comment | Reviewer | Date |
+|:------------------:|:-------------:|:-------------:|:-------------:|:------------------:|:--------:|
+| 24-02-2025  | V1   | Sahil | Internal Review | Sidharth  |
+
+---
 ## Introduction
 
 Continuous Integration (CI) is a crucial practice for modern software development that allows developers to frequently integrate code into a shared repository. This practice involves automating the process of building, testing, and deploying applications, ensuring that code changes do not break existing functionality and are deployed smoothly. Additionally, leveraging **Amazon Machine Images (AMI)** can help manage infrastructure and ensure consistent environments for the CI pipeline. This documentation covers the **design of CI**, **generic CI operations**, and **usage of AMIs** in the CI/CD process.
@@ -90,6 +96,12 @@ In conclusion, adopting CI practices with the use of AMIs provides improved effi
 ## Contact Information
 
 
+|    NAME           |   Email Address                       |
+|:-----------------:|:-------------------------------------:|
+|Sahil| 	|
+
+
+---
 ## References
 
 1. [Continuous Integration - Wikipedia](https://en.wikipedia.org/wiki/Continuous_integration)
